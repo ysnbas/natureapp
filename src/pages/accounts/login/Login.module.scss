@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .createAccountContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    p {
+      color: black;
+      font-size: 16px;
+    }
+    .createAccount {
+      color: #fff;
+      margin-left: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      background-color: #e3ac48;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+  }
+  .footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    text-align: center;
+    background: white;
+  }
+}

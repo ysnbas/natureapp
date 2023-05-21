@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Nunito, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  letter-spacing: 0.0312rem;
+  font-size: 0.875rem;
+  background-color: #8ec994;
+  overflow: overlay;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+}

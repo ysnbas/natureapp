@@ -1,13 +1,6 @@
 import React from "react";
-import LandingPage from "./landingPage";
-import HeadLayout from "@/layouts/headLayout";
+import Login from "./accounts/login";
 
 export default function Index() {
-  return (
-    <HeadLayout
-      title="Homepage"
-    >
-      <LandingPage />
-    </HeadLayout>
-  );
+  return <Login />;
 }

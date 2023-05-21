@@ -1,0 +1,26 @@
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.textField {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 50px;
+  max-width: 635px;
+  width: 100%;
+  min-height: 36px;
+  transition: all 0.2s ease-in-out 0s;
+  margin-bottom: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+  border: 1px solid #c1bfbf;
+  padding: 3px 7px;
+  line-height: normal;
+  &:focus {
+    outline: none;
+    border-color: #92dc91;
+    box-shadow: 0 0 0 1px rgba(0, 123, 255, 0.25);
+  }
+}
